@@ -1,0 +1,97 @@
+- name: LIBERO
+  robot: Franka Panda
+  type: Simulated
+  data: Manipulation
+  control: Low-Level
+  language_conditioned: true
+  env: tabletop
+  link: https://libero-project.github.io/
+  papers:
+    - title: "Open Paper"
+      authors: "TBD"
+      year: 2024
+      link: https://example.com/open-paper
+
+- name: CALVIN
+  robot: Franka Panda
+  type: Simulated
+  data: Manipulation
+  control: Low-Level
+  language_conditioned: true
+  env: tabletop
+  link: https://calvin.cs.uni-freiburg.de/
+  papers:
+    - title: "Open Paper"
+      authors: "TBD"
+      year: 2024
+      link: https://example.com/open-paper
+
+- name: VLA-Bench
+  robot: Franka Panda
+  type: Simulated
+  data: "Manipulation+Reasoning"
+  control: Low-Level
+  language_conditioned: true
+  env: tabletop
+  link: https://example.com/vla-bench
+  papers:
+    - title: "Open Paper"
+      authors: "TBD"
+      year: 2024
+      link: https://example.com/open-paper
+
+- name: Mobile ALOHA
+  robot: Aloha
+  type: Real world
+  data: "Bimanual manipulation"
+  control: Low-Level
+  language_conditioned: false
+  env: mobile
+  link: https://mobile-aloha.github.io/
+  papers:
+    - title: "Open Paper"
+      authors: "TBD"
+      year: 2024
+      link: https://example.com/open-paper
+
+- name: LangR
+  robot: Fetch
+  type: Simulated
+  data: Manipulation
+  control: Magic-Grasp
+  language_conditioned: true
+  env: mobile
+  link: https://example.com/langr
+  papers:
+    - title: "Open Paper"
+      authors: "TBD"
+      year: 2024
+      link: https://example.com/open-paper
+
+- name: SimplerEnv
+  robot: "Google Robot, WidowX"
+  type: Simulated
+  data: Manipulation
+  control: Low-Level
+  language_conditioned: true
+  env: tabletop
+  link: https://github.com/google-research/simpler-env
+  papers:
+    - title: "Open Paper"
+      authors: "TBD"
+      year: 2024
+      link: https://example.com/open-paper
+
+- name: RL-Bench
+  robot: Franka Panda
+  type: Simulated
+  data: "Low-level Manipulation"
+  control: Low-Level
+  language_conditioned: true
+  env: tabletop
+  link: https://github.com/stepjam/RLBench
+  papers:
+    - title: "Open Paper"
+      authors: "TBD"
+      year: 2024
+      link: https://example.com/open-paper
