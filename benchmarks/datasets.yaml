@@ -19,7 +19,7 @@
   control: Low-Level
   language_conditioned: true
   env: tabletop
-  link: https://calvin.cs.uni-freiburg.de/
+  link: http://calvin.cs.uni-freiburg.de/
   papers:
     - title: "Open Paper"
       authors: "TBD"
@@ -33,7 +33,7 @@
   control: Low-Level
   language_conditioned: true
   env: tabletop
-  link: https://example.com/vla-bench
+  link: https://vlabench.github.io/
   papers:
     - title: "Open Paper"
       authors: "TBD"
@@ -61,7 +61,7 @@
   control: Magic-Grasp
   language_conditioned: true
   env: mobile
-  link: https://example.com/langr
+  link: https://llm-rl.github.io/
   papers:
     - title: "Open Paper"
       authors: "TBD"
@@ -75,7 +75,7 @@
   control: Low-Level
   language_conditioned: true
   env: tabletop
-  link: https://github.com/google-research/simpler-env
+  link: https://simpler-env.github.io/
   papers:
     - title: "Open Paper"
       authors: "TBD"
@@ -89,7 +89,7 @@
   control: Low-Level
   language_conditioned: true
   env: tabletop
-  link: https://github.com/stepjam/RLBench
+  link: https://sites.google.com/view/rlbench
   papers:
     - title: "Open Paper"
       authors: "TBD"

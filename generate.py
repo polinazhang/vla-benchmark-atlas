@@ -56,17 +56,54 @@ def generate_markdown(datasets):
     return table_md + ("\n\n" + collapsibles_md if collapsibles_md else "")
 
 
+def generate_simulator_list(simulators):
+    lines = []
+    for simulator in simulators:
+        name = simulator.get("name", "Unnamed Simulator")
+        link = simulator.get("link")
+        description = simulator.get("description")
+
+        item = f"[{name}]({link})" if link else name
+        if description:
+            item = f"{item} — {description}"
+
+        lines.append(f"- {item}")
+
+    return "\n".join(lines) if lines else "No simulators listed yet."
+
+
 def main():
     with open("benchmarks/datasets.yaml", "r") as dataset_file:
         datasets = yaml.safe_load(dataset_file) or []
 
+    with open("benchmarks/simulators.yaml", "r") as simulator_file:
+        simulators = yaml.safe_load(simulator_file) or []
+
     markdown = generate_markdown(datasets)
+    simulator_markdown = generate_simulator_list(simulators)
 
     with open("tables/datasets.md", "w") as out_file:
         out_file.write("# 📚 Demonstration Datasets\n\n")
         out_file.write(markdown)
 
+    with open("tables/simulators.md", "w") as out_file:
+        out_file.write("# 🕹️ Simulators\n\n")
+        out_file.write(simulator_markdown + "\n")
+
+    readme_sections = []
+    for path in ("tables/info.md", "tables/datasets.md", "tables/simulators.md"):
+        with open(path, "r") as section_file:
+            readme_sections.append(section_file.read().strip())
+
+    combined_readme = "\n\n".join(readme_sections) + "\n"
+
+    with open("README.md", "w") as readme_file:
+        readme_file.write(combined_readme)
+
     print("✅ Markdown table generated at tables/datasets.md")
+    print("✅ Simulator list generated at tables/simulators.md")
+    print("✅ README updated with info, datasets, and simulators")
+    print("Thanks again for contributing! Every improvement makes the atlas more useful to the community.")
 
 
 if __name__ == "__main__":

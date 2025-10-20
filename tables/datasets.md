@@ -3,12 +3,12 @@
 | Name | Robot | Type | Data | Control | Lang Cond. | Env |
 |------|-------|------|------|---------|-------------|-----|
 | [LIBERO](https://libero-project.github.io/) | Franka Panda | Simulated | Manipulation | Low-Level | ✅ | tabletop |
-| [CALVIN](https://calvin.cs.uni-freiburg.de/) | Franka Panda | Simulated | Manipulation | Low-Level | ✅ | tabletop |
-| [VLA-Bench](https://example.com/vla-bench) | Franka Panda | Simulated | Manipulation+Reasoning | Low-Level | ✅ | tabletop |
+| [CALVIN](http://calvin.cs.uni-freiburg.de/) | Franka Panda | Simulated | Manipulation | Low-Level | ✅ | tabletop |
+| [VLA-Bench](https://vlabench.github.io/) | Franka Panda | Simulated | Manipulation+Reasoning | Low-Level | ✅ | tabletop |
 | [Mobile ALOHA](https://mobile-aloha.github.io/) | Aloha | Real world | Bimanual manipulation | Low-Level | ❌ | mobile |
-| [LangR](https://example.com/langr) | Fetch | Simulated | Manipulation | Magic-Grasp | ✅ | mobile |
-| [SimplerEnv](https://github.com/google-research/simpler-env) | Google Robot, WidowX | Simulated | Manipulation | Low-Level | ✅ | tabletop |
-| [RL-Bench](https://github.com/stepjam/RLBench) | Franka Panda | Simulated | Low-level Manipulation | Low-Level | ✅ | tabletop |
+| [LangR](https://llm-rl.github.io/) | Fetch | Simulated | Manipulation | Magic-Grasp | ✅ | mobile |
+| [SimplerEnv](https://simpler-env.github.io/) | Google Robot, WidowX | Simulated | Manipulation | Low-Level | ✅ | tabletop |
+| [RL-Bench](https://sites.google.com/view/rlbench) | Franka Panda | Simulated | Low-level Manipulation | Low-Level | ✅ | tabletop |
 
 <details>
 <summary>📄 Papers using LIBERO (click to expand)</summary>
