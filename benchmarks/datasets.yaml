@@ -7,10 +7,22 @@
   env: tabletop
   link: https://libero-project.github.io/
   papers:
-    - title: "Open Paper"
-      authors: "TBD"
-      year: 2024
-      link: https://example.com/open-paper
+    - title: "OpenVLA: An Open-Source Vision-Language-Action Model"
+      link: https://arxiv.org/abs/2406.09246
+    - title: "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success"
+      link: https://arxiv.org/abs/2502.19645
+    - title: "FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies"
+      link: https://arxiv.org/abs/2509.04996
+    - title: "VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model"
+      link: https://arxiv.org/abs/2509.09372
+    - title: "MolmoAct: Action Reasoning Models that can Reason in Space"
+      link: https://arxiv.org/abs/2508.07917
+    - title: "SmolVLA: A vision-language-action model for affordable and efficient robotics"
+      link: https://arxiv.org/abs/2506.01844
+    - title: "InSpire: Vision-Language-Action Models with Intrinsic Spatial Reasoning"
+      link: https://arxiv.org/abs/2505.13888
+    - title: "villa-X: Enhancing Latent Action Modeling in Vision-Language-Action Models"
+      link: https://arxiv.org/abs/2507.23682
 
 - name: CALVIN
   robot: Franka Panda
@@ -21,10 +33,10 @@
   env: tabletop
   link: http://calvin.cs.uni-freiburg.de/
   papers:
-    - title: "Open Paper"
-      authors: "TBD"
-      year: 2024
-      link: https://example.com/open-paper
+    - title: "FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies"
+      link: https://arxiv.org/abs/2509.04996
+    - title: "VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model"
+      link: https://arxiv.org/abs/2509.09372
 
 - name: VLA-Bench
   robot: Franka Panda
@@ -36,23 +48,23 @@
   link: https://vlabench.github.io/
   papers:
     - title: "Open Paper"
-      authors: "TBD"
-      year: 2024
-      link: https://example.com/open-paper
+      link: https://vlabench.github.io/
 
-- name: Mobile ALOHA
+- name: ALOHA
   robot: Aloha
   type: Real world
   data: "Bimanual manipulation"
   control: Low-Level
   language_conditioned: false
   env: mobile
-  link: https://mobile-aloha.github.io/
+  link: https://tonyzhaozh.github.io/aloha/
   papers:
-    - title: "Open Paper"
-      authors: "TBD"
-      year: 2024
-      link: https://example.com/open-paper
+    - title: "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware"
+      link: https://arxiv.org/abs/2304.13705
+    - title: "Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation"
+      link: https://arxiv.org/abs/2401.02117
+    - title: "FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies"
+      link: https://arxiv.org/abs/2509.04996
 
 - name: LangR
   robot: Fetch
@@ -63,10 +75,8 @@
   env: mobile
   link: https://llm-rl.github.io/
   papers:
-    - title: "Open Paper"
-      authors: "TBD"
-      year: 2024
-      link: https://example.com/open-paper
+    - title: "From Multimodal LLMs to Generalist Embodied Agents: Methods and Lessons"
+      link: https://arxiv.org/abs/2412.08442
 
 - name: SimplerEnv
   robot: "Google Robot, WidowX"
@@ -77,10 +87,14 @@
   env: tabletop
   link: https://simpler-env.github.io/
   papers:
-    - title: "Open Paper"
-      authors: "TBD"
-      year: 2024
-      link: https://example.com/open-paper
+    - title: "CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation"
+      link: https://arxiv.org/abs/2411.19650
+    - title: "FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies"
+      link: https://arxiv.org/abs/2509.04996
+    - title: "ReVLA: Reverting Visual Domain Limitation of Robotic Foundation Models"
+      link: https://arxiv.org/abs/2409.15250
+    - title: "villa-X: Enhancing Latent Action Modeling in Vision-Language-Action Models"
+      link: https://arxiv.org/abs/2507.23682
 
 - name: RL-Bench
   robot: Franka Panda
@@ -91,7 +105,5 @@
   env: tabletop
   link: https://sites.google.com/view/rlbench
   papers:
-    - title: "Open Paper"
-      authors: "TBD"
-      year: 2024
-      link: https://example.com/open-paper
+    - title: "MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation"
+      link: https://arxiv.org/abs/2503.20384
