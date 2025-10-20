@@ -1,4 +1,4 @@
-A collection of benchmarks and simulators that can be used for or adapted to **Vision-Language-Action** research.
+A collection of **benchmarks** and **simulators** that can be used for or adapted to VLA research.
 Browse common environments, find related papers, and add new entries easily through YAML files.
 
 # 📚 Demonstration Datasets
@@ -16,62 +16,62 @@ Browse common environments, find related papers, and add new entries easily thro
 <details>
 <summary>📄 Papers using LIBERO (click to expand)</summary>
 
-- [OpenVLA: An Open-Source Vision-Language-Action Model (Unknown, TBD)](https://arxiv.org/abs/2406.09246)
-- [Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success (Unknown, TBD)](https://arxiv.org/abs/2502.19645)
-- [FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies (Unknown, TBD)](https://arxiv.org/abs/2509.04996)
-- [VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model (Unknown, TBD)](https://arxiv.org/abs/2509.09372)
-- [MolmoAct: Action Reasoning Models that can Reason in Space (Unknown, TBD)](https://arxiv.org/abs/2508.07917)
-- [SmolVLA: A vision-language-action model for affordable and efficient robotics (Unknown, TBD)](https://arxiv.org/abs/2506.01844)
-- [InSpire: Vision-Language-Action Models with Intrinsic Spatial Reasoning (Unknown, TBD)](https://arxiv.org/abs/2505.13888)
-- [villa-X: Enhancing Latent Action Modeling in Vision-Language-Action Models (Unknown, TBD)](https://arxiv.org/abs/2507.23682)
+- [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246)
+- [Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success](https://arxiv.org/abs/2502.19645)
+- [FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies](https://arxiv.org/abs/2509.04996)
+- [VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model](https://arxiv.org/abs/2509.09372)
+- [MolmoAct: Action Reasoning Models that can Reason in Space](https://arxiv.org/abs/2508.07917)
+- [SmolVLA: A vision-language-action model for affordable and efficient robotics](https://arxiv.org/abs/2506.01844)
+- [InSpire: Vision-Language-Action Models with Intrinsic Spatial Reasoning](https://arxiv.org/abs/2505.13888)
+- [villa-X: Enhancing Latent Action Modeling in Vision-Language-Action Models](https://arxiv.org/abs/2507.23682)
 
 </details>
 
 <details>
 <summary>📄 Papers using CALVIN (click to expand)</summary>
 
-- [FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies (Unknown, TBD)](https://arxiv.org/abs/2509.04996)
-- [VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model (Unknown, TBD)](https://arxiv.org/abs/2509.09372)
+- [FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies](https://arxiv.org/abs/2509.04996)
+- [VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model](https://arxiv.org/abs/2509.09372)
 
 </details>
 
 <details>
 <summary>📄 Papers using VLA-Bench (click to expand)</summary>
 
-- [Open Paper (Unknown, TBD)](https://vlabench.github.io/)
+- [Open Paper](https://vlabench.github.io/)
 
 </details>
 
 <details>
 <summary>📄 Papers using ALOHA (click to expand)</summary>
 
-- [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware (Unknown, TBD)](https://arxiv.org/abs/2304.13705)
-- [Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation (Unknown, TBD)](https://arxiv.org/abs/2401.02117)
-- [FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies (Unknown, TBD)](https://arxiv.org/abs/2509.04996)
+- [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/abs/2304.13705)
+- [Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation](https://arxiv.org/abs/2401.02117)
+- [FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies](https://arxiv.org/abs/2509.04996)
 
 </details>
 
 <details>
 <summary>📄 Papers using LangR (click to expand)</summary>
 
-- [From Multimodal LLMs to Generalist Embodied Agents: Methods and Lessons (Unknown, TBD)](https://arxiv.org/abs/2412.08442)
+- [From Multimodal LLMs to Generalist Embodied Agents: Methods and Lessons](https://arxiv.org/abs/2412.08442)
 
 </details>
 
 <details>
 <summary>📄 Papers using SimplerEnv (click to expand)</summary>
 
-- [CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation (Unknown, TBD)](https://arxiv.org/abs/2411.19650)
-- [FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies (Unknown, TBD)](https://arxiv.org/abs/2509.04996)
-- [ReVLA: Reverting Visual Domain Limitation of Robotic Foundation Models (Unknown, TBD)](https://arxiv.org/abs/2409.15250)
-- [villa-X: Enhancing Latent Action Modeling in Vision-Language-Action Models (Unknown, TBD)](https://arxiv.org/abs/2507.23682)
+- [CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation](https://arxiv.org/abs/2411.19650)
+- [FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies](https://arxiv.org/abs/2509.04996)
+- [ReVLA: Reverting Visual Domain Limitation of Robotic Foundation Models](https://arxiv.org/abs/2409.15250)
+- [villa-X: Enhancing Latent Action Modeling in Vision-Language-Action Models](https://arxiv.org/abs/2507.23682)
 
 </details>
 
 <details>
 <summary>📄 Papers using RL-Bench (click to expand)</summary>
 
-- [MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation (Unknown, TBD)](https://arxiv.org/abs/2503.20384)
+- [MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation](https://arxiv.org/abs/2503.20384)
 
 </details>
 

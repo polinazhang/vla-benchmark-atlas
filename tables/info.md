@@ -1,2 +1,2 @@
-A collection of benchmarks and simulators that can be used for or adapted to **Vision-Language-Action** research.
+A collection of **benchmarks** and **simulators** that can be used for or adapted to VLA research.
 Browse common environments, find related papers, and add new entries easily through YAML files.

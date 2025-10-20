@@ -38,11 +38,8 @@ def generate_markdown(datasets):
             paper_lines = []
             for paper in papers:
                 title = paper.get("title", "Untitled")
-                authors = paper.get("authors", "Unknown")
-                year = paper.get("year", "TBD")
                 link = paper.get("link")
-                paper_label = f"{title} ({authors}, {year})"
-                paper_lines.append(f"- [{paper_label}]({link})" if link else f"- {paper_label}")
+                paper_lines.append(f"- [{title}]({link})" if link else f"- {title}")
 
             collapsibles.append(
                 "<details>\n"
