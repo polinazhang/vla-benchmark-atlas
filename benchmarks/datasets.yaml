@@ -80,7 +80,7 @@
 
 - name: SimplerEnv
   robot: "Google Robot, WidowX"
-  type: Simulated
+  type: Real2Sim
   data: Manipulation
   control: Low-Level
   language_conditioned: true

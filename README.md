@@ -10,7 +10,7 @@ Browse common environments, find related papers, and add new entries easily thro
 | [VLA-Bench](https://vlabench.github.io/) | Panda | Simulated | Manipulation+Reasoning | Low-Level | ✅ | tabletop |
 | [ALOHA](https://tonyzhaozh.github.io/aloha/) | Aloha | Real world | Bimanual manipulation | Low-Level | ❌ | mobile |
 | [LangR](https://llm-rl.github.io/) | Fetch | Simulated | Manipulation | Magic-Grasp | ✅ | mobile |
-| [SimplerEnv](https://simpler-env.github.io/) | Google Robot, WidowX | Simulated | Manipulation | Low-Level | ✅ | tabletop |
+| [SimplerEnv](https://simpler-env.github.io/) | Google Robot, WidowX | Real2Sim | Manipulation | Low-Level | ✅ | tabletop |
 | [RL-Bench](https://sites.google.com/view/rlbench) | Panda | Simulated | Low-level Manipulation | Low-Level | ✅ | tabletop |
 | [BEHAVIOR-1K](https://behavior.stanford.edu/) | Tiago | Simulated | Manipulation+Reasoning | Low-Level | ❌ | mobile |
 
