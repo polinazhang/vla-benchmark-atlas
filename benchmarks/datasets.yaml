@@ -1,5 +1,5 @@
 - name: LIBERO
-  robot: Franka Panda
+  robot: Panda
   type: Simulated
   data: Manipulation
   control: Low-Level
@@ -25,7 +25,7 @@
       link: https://arxiv.org/abs/2507.23682
 
 - name: CALVIN
-  robot: Franka Panda
+  robot: Panda
   type: Simulated
   data: Manipulation
   control: Low-Level
@@ -39,7 +39,7 @@
       link: https://arxiv.org/abs/2509.09372
 
 - name: VLA-Bench
-  robot: Franka Panda
+  robot: Panda
   type: Simulated
   data: "Manipulation+Reasoning"
   control: Low-Level
@@ -97,7 +97,7 @@
       link: https://arxiv.org/abs/2507.23682
 
 - name: RL-Bench
-  robot: Franka Panda
+  robot: Panda
   type: Simulated
   data: "Low-level Manipulation"
   control: Low-Level
@@ -107,3 +107,16 @@
   papers:
     - title: "MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation"
       link: https://arxiv.org/abs/2503.20384
+
+- name: BEHAVIOR-1K
+  robot: Tiago
+  type: Simulated
+  data: "Manipulation+Reasoning"
+  control: Low-Level
+  language_conditioned: false
+  env: mobile
+  link: https://behavior.stanford.edu/
+  papers:
+    - title: "Open Paper"
+      link: https://vlabench.github.io/
+

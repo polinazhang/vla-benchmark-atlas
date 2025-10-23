@@ -5,13 +5,14 @@ Browse common environments, find related papers, and add new entries easily thro
 
 | Name | Robot | Type | Data | Control | Lang Cond. | Env |
 |------|-------|------|------|---------|-------------|-----|
-| [LIBERO](https://libero-project.github.io/) | Franka Panda | Simulated | Manipulation | Low-Level | ✅ | tabletop |
-| [CALVIN](http://calvin.cs.uni-freiburg.de/) | Franka Panda | Simulated | Manipulation | Low-Level | ✅ | tabletop |
-| [VLA-Bench](https://vlabench.github.io/) | Franka Panda | Simulated | Manipulation+Reasoning | Low-Level | ✅ | tabletop |
+| [LIBERO](https://libero-project.github.io/) | Panda | Simulated | Manipulation | Low-Level | ✅ | tabletop |
+| [CALVIN](http://calvin.cs.uni-freiburg.de/) | Panda | Simulated | Manipulation | Low-Level | ✅ | tabletop |
+| [VLA-Bench](https://vlabench.github.io/) | Panda | Simulated | Manipulation+Reasoning | Low-Level | ✅ | tabletop |
 | [ALOHA](https://tonyzhaozh.github.io/aloha/) | Aloha | Real world | Bimanual manipulation | Low-Level | ❌ | mobile |
 | [LangR](https://llm-rl.github.io/) | Fetch | Simulated | Manipulation | Magic-Grasp | ✅ | mobile |
 | [SimplerEnv](https://simpler-env.github.io/) | Google Robot, WidowX | Simulated | Manipulation | Low-Level | ✅ | tabletop |
-| [RL-Bench](https://sites.google.com/view/rlbench) | Franka Panda | Simulated | Low-level Manipulation | Low-Level | ✅ | tabletop |
+| [RL-Bench](https://sites.google.com/view/rlbench) | Panda | Simulated | Low-level Manipulation | Low-Level | ✅ | tabletop |
+| [BEHAVIOR-1K](https://behavior.stanford.edu/) | Tiago | Simulated | Manipulation+Reasoning | Low-Level | ❌ | mobile |
 
 <details>
 <summary>📄 Papers using LIBERO (click to expand)</summary>
@@ -72,6 +73,13 @@ Browse common environments, find related papers, and add new entries easily thro
 <summary>📄 Papers using RL-Bench (click to expand)</summary>
 
 - [MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation](https://arxiv.org/abs/2503.20384)
+
+</details>
+
+<details>
+<summary>📄 Papers using BEHAVIOR-1K (click to expand)</summary>
+
+- [Open Paper](https://vlabench.github.io/)
 
 </details>
 
